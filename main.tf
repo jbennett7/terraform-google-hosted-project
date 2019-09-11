@@ -8,7 +8,7 @@ module "host-project" {
 }
 
 module "vpc" {
-  source = "git::https://github.com/terraform-google-modules/terraform-google-network.git?ref=master"
+  source = "github.com/terraform-google-modules/terraform-google-network.git?ref=master"
   project_id = module.host-project.project_id
   network_name = var.network_name
   delete_default_internet_gateway_routes = true
