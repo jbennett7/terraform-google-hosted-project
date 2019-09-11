@@ -1,1 +1,1 @@
-# terraform-google-shared-vpc-demo
+# terraform-google-hosted-project
