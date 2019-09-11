@@ -1,6 +1,6 @@
 .terraform/
 credentials.json
-terraform.tfstate
+terraform.tfstate*
 terraform.tfvars
 terraform.log
 plan.out
